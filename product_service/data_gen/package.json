@@ -1,0 +1,15 @@
+{
+  "name": "data_gen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "generate_products.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node generate_products.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^6.0.0-beta.0"
+  }
+}

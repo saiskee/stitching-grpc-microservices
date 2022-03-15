@@ -1,0 +1,20 @@
+apiVersion: graphql.gloo.solo.io/v1alpha1
+kind: GraphQLSchema
+metadata:
+  name: gateway-gql
+  namespace: gloo-system
+spec:
+  gatewaySchema:
+    subschemas:
+    - name: default-users-8080
+      namespace: gloo-system
+      typeMerge:
+        User:
+          selectionSet: '{username}'
+          queryName: GetUser
+          args:
+            "id": "UserSearch.username"
+    - name: default-reviews-8080
+      namespace: gloo-system
+    - name: default-products-8080
+      namespace: gloo-system

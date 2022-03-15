@@ -1,0 +1,24 @@
+
+Ö
+product_service/product.protoproduct""
+User
+username (	Rusername"j
+Product
+name (	Rname
+id (Rid%
+seller (2.product.UserRseller
+price (	Rprice"3
+ProductSearch
+id (Rid
+name (	Rname"$
+ProductsSearch
+name (	Rname"0
+ProductsSoldByUser
+username (	Rusername"8
+Products,
+products (2.product.ProductRproducts2Ì
+ProductService6
+
+GetProduct.product.ProductSearch.product.Product9
+GetProducts.product.ProductsSearch.product.ProductsG
+GetProductsSoldByUser.product.ProductsSoldByUser.product.Productsbproto3

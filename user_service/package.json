@@ -1,0 +1,18 @@
+{
+  "name": "user_service",
+  "version": "1.0.0",
+  "description": "Node.js on Docker",
+  "author": "Keerthan Ekbote",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@grpc/grpc-js": "^1.5.7",
+    "@grpc/proto-loader": "^0.6.9",
+    "express": "^4.16.1",
+    "grpc-server-reflection": "^0.1.5",
+    "mali": "^0.46.1",
+    "nice-grpc-server-reflection": "^1.0.9"
+  }
+}

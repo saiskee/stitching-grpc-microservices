@@ -1,0 +1,16 @@
+
+ñ
+review_service/review.protoreview""
+User
+username (	Rusername"`
+Review$
+author (2.review.UserRauthor
+content (	Rcontent
+rating (Rrating"2
+ReviewsForProduct
+
+product_id (R	productId"3
+Reviews(
+reviews (2.review.ReviewRreviews2S
+ReviewServiceB
+GetReviewsForProduct.review.ReviewsForProduct.review.Reviewsbproto3
